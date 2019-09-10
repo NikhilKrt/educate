@@ -51,11 +51,11 @@
          $('.flat-row').each(function() {               
             if ( $().owlCarousel ) {
                 $(this).find('.flat-course-grid').owlCarousel({
-                    loop: true,
+                    loop: false,
                     margin: 30,
                     nav: true,
                     dots: false,                     
-                    autoplay: true,                    
+                    autoplay: false,                    
                     responsive:{
                         0:{
                             items: 1
