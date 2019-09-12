@@ -1,3 +1,21 @@
+header.header{
+	padding: 20px 0;
+}
+
+.header .header-wrap .logo{
+	height: 45px%;
+	margin: 0;
+}
+
+.header-wrap .logo a {
+	display: grid;
+	height: 100%;
+}
+
+.header-wrap .logo a img {
+	height: 100%
+}
+
 .coverCont {
 	display: grid;
 	grid-template-columns: 1fr;
